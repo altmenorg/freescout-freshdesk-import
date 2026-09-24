@@ -1,0 +1,14 @@
+{
+    "name": "altmenorg/freescout-freshdesk-import",
+    "description": "Freshdesk to FreeScout importer",
+    "license": "AGPL-3.0-only",
+    "extra": {
+        "laravel": {
+            "providers": ["Modules\\FreshdeskImport\\Providers\\FreshdeskImportServiceProvider"],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": { "Modules\\FreshdeskImport\\": "" }
+    }
+}

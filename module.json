@@ -1,0 +1,22 @@
+{
+    "name": "Freshdesk Import",
+    "alias": "freshdeskimport",
+    "description": "Import your Freshdesk tickets, replies, notes, attachments, customers and tags into FreeScout, then keep them in sync until you switch over.",
+    "version": "1.0.0",
+    "detailsUrl": "https://github.com/altmenorg/freescout-freshdesk-import",
+    "author": "altmenorg",
+    "authorUrl": "https://github.com/altmenorg",
+    "requiredAppVersion": "1.8.0",
+    "license": "AGPL-3.0",
+    "keywords": ["freshdesk", "import", "migration"],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\FreshdeskImport\\Providers\\FreshdeskImportServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

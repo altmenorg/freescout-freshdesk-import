@@ -1,0 +1,19 @@
+/* Freshdesk Import — status panel of the settings page */
+.fdi-panel { max-width: 900px; margin: 0 0 40px 2%; }
+.fdi-status { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.fdi-badge { display: inline-block; padding: 2px 10px; border-radius: 12px; background: #eef1f4; color: #475867; font-weight: 600; font-size: 13px; }
+.fdi-panel[data-state="running"] .fdi-badge { background: #e5f2fd; color: #2c5cc5; }
+.fdi-panel[data-state="done"] .fdi-badge { background: #e0f5ec; color: #00795b; }
+.fdi-panel[data-state="error"] .fdi-badge { background: #ffe8e8; color: #c4282b; }
+.fdi-message { color: #475867; }
+.fdi-counts { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+.fdi-counts > div { min-width: 120px; padding: 10px 14px; border: 1px solid #e5e9ee; border-radius: 6px; background: #fff; }
+.fdi-counts strong { display: block; font-size: 20px; line-height: 26px; color: #12344d; }
+.fdi-counts span { font-size: 12px; color: #6f7c87; }
+.fdi-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+.fdi-log-title { margin-top: 24px; font-size: 14px; font-weight: 600; }
+.fdi-log { max-height: 320px; overflow-y: auto; margin: 0; padding: 8px 12px; list-style: none; border: 1px solid #e5e9ee; border-radius: 6px; background: #fafbfc; font-size: 12px; line-height: 20px; }
+.fdi-log:empty { display: none; }
+.fdi-log-at { color: #92a2b1; }
+.fdi-log-warning { color: #b35900; }
+.fdi-log-error { color: #c4282b; }
